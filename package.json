@@ -4,6 +4,7 @@
   "description": "Snowpack Template for React Projects",
   "main": "index.js",
   "scripts": {
+    "snowpack": "snowpack",
     "start": "snowpack dev",
     "build": "snowpack build",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +15,11 @@
     "snowpack": "^3.8.3"
   },
   "dependencies": {
+    "bootstrap": "^5.1.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-player": "^2.9.0",
+    "react-router-dom": "^5.2.0",
+    "snowpack-sass-compiler": "^1.0.6"
   }
 }
